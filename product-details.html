@@ -1,0 +1,1712 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://templates.hibootstrap.com/techex/default/assets/css/bootstrap.min.css"
+    />
+    <!-- Animate Min CSS -->
+    <link
+      rel="stylesheet"
+      href="https://templates.hibootstrap.com/techex/default/assets/css/animate.min.css"
+    />
+    <!-- Flaticon CSS -->
+    <link
+      rel="stylesheet"
+      href="https://templates.hibootstrap.com/techex/default/assets/fonts/flaticon.css"
+    />
+    <!-- Boxicons CSS -->
+    <link
+      rel="stylesheet"
+      href="https://templates.hibootstrap.com/techex/default/assets/css/boxicons.min.css"
+    />
+    <!-- Owl Carousel Min CSS -->
+    <link
+      rel="stylesheet"
+      href="https://templates.hibootstrap.com/techex/default/assets/css/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://templates.hibootstrap.com/techex/default/assets/css/owl.theme.default.min.css"
+    />
+    <!--=== Magnific Popup Min CSS ===-->
+    <link
+      rel="stylesheet"
+      href="https://templates.hibootstrap.com/techex/default/assets/css/magnific-popup.min.css"
+    />
+    <!-- Nice Select CSS -->
+    <link
+      rel="stylesheet"
+      href="https://templates.hibootstrap.com/techex/default/assets/css/nice-select.min.css"
+    />
+    <!-- Meanmenu CSS -->
+    <link
+      rel="stylesheet"
+      href="https://templates.hibootstrap.com/techex/default/assets/css/meanmenu.css"
+    />
+    <!-- Style CSS -->
+    <link
+      rel="stylesheet"
+      href="https://templates.hibootstrap.com/techex/default/assets/css/style.css"
+    />
+    <!-- Responsive CSS -->
+    <link
+      rel="stylesheet"
+      href="https://templates.hibootstrap.com/techex/default/assets/css/responsive.css"
+    />
+    <!-- Theme Dark CSS -->
+    <link
+      rel="stylesheet"
+      href="https://templates.hibootstrap.com/techex/default/assets/css/theme-dark.css"
+    />
+
+    <!-- Custom Logo Size -->
+    <style>
+      .navbar-brand img,
+      .mobile-nav .logo img {
+        max-width: 110px;
+        height: auto;
+      }
+    </style>
+
+    <!--=== Title & Favicon ===-->
+    <title>Product Details - Movetekme | Industrial Solutions</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://templates.hibootstrap.com/techex/default/assets/images/favicon.png"
+    />
+    <style type="text/css">
+      /* Enhanced Product Details Styling */
+      .service-details-img img {
+        border-radius: 10px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+      }
+      .service-details-img img:hover {
+        transform: scale(1.02);
+      }
+      .service-details-text h2 {
+        font-size: 36px;
+        font-weight: 700;
+        color: #1e3a5f;
+        margin-bottom: 20px;
+        line-height: 1.3;
+      }
+      .service-details-text p {
+        font-size: 16px;
+        line-height: 1.8;
+        color: #555;
+        margin-bottom: 20px;
+      }
+      .service-details-features {
+        margin-top: 40px;
+        padding: 30px;
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        border-radius: 10px;
+      }
+      .service-details-features h3 {
+        font-size: 28px;
+        font-weight: 700;
+        color: #1e3a5f;
+        margin-bottom: 25px;
+      }
+      .feature-list {
+        list-style: none;
+        padding: 0;
+      }
+      .feature-list li {
+        padding: 12px 0;
+        font-size: 16px;
+        color: #333;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+      }
+      .feature-list li:last-child {
+        border-bottom: none;
+      }
+      .feature-list li i {
+        color: #00c853;
+        font-size: 22px;
+        margin-right: 10px;
+      }
+      .benefit-card {
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        text-align: center;
+        transition: transform 0.3s, box-shadow 0.3s;
+        height: 100%;
+      }
+      .benefit-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      }
+      .benefit-card > div:first-child {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 20px;
+      }
+      .benefit-card:nth-child(1) > div:first-child {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      }
+      .benefit-card:nth-child(2) > div:first-child {
+        background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+      }
+      .benefit-card:nth-child(3) > div:first-child {
+        background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+      }
+      .benefit-card h4 {
+        font-size: 22px;
+        font-weight: 600;
+        color: #1e3a5f;
+        margin-bottom: 15px;
+      }
+      .benefit-card p {
+        font-size: 15px;
+        line-height: 1.6;
+        color: #666;
+      }
+      .service-details-benefits h3 {
+        font-size: 28px;
+        font-weight: 700;
+        color: #1e3a5f;
+        margin-bottom: 30px;
+      }
+      /* Enhanced Sidebar Styling */
+      .sidebar-category {
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        margin-bottom: 30px;
+      }
+      .sidebar-category h3 {
+        font-size: 24px;
+        font-weight: 700;
+        color: #1e3a5f;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #f0f0f0;
+      }
+      .category-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .category-list li {
+        margin-bottom: 10px;
+      }
+      .category-list li:last-child {
+        margin-bottom: 0;
+      }
+      .category-list a {
+        display: flex;
+        align-items: center;
+        padding: 12px 15px;
+        color: #555;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: all 0.3s;
+        background: #f8f9fa;
+      }
+      .category-list a:hover,
+      .category-list a.active {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+      }
+      .category-list a i {
+        margin-right: 10px;
+        font-size: 18px;
+      }
+      .category-list a span {
+        font-weight: 500;
+      }
+      .category-list a.active span {
+        font-weight: 600;
+      }
+      .sidebar-contact {
+        background: linear-gradient(135deg, #1e3a5f 0%, #2c5282 100%);
+        padding: 35px;
+        border-radius: 10px;
+        box-shadow: 0 10px 30px rgba(30, 58, 95, 0.3);
+        margin-bottom: 30px;
+        color: white;
+      }
+      .sidebar-contact h3 {
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 15px;
+      }
+      .sidebar-contact > p {
+        color: rgba(255, 255, 255, 0.9);
+        margin-bottom: 25px;
+        line-height: 1.6;
+      }
+      .contact-item {
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        backdrop-filter: blur(10px);
+        margin-bottom: 20px;
+      }
+      .contact-item:last-child {
+        margin-bottom: 0;
+      }
+      .contact-item > div:first-child {
+        width: 50px;
+        height: 50px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 15px;
+      }
+      .contact-item i {
+        font-size: 24px;
+        color: white;
+      }
+      .contact-item span {
+        display: block;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.7);
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      .contact-item a {
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      .contact-item:last-child a {
+        font-size: 14px;
+        font-weight: 500;
+        word-break: break-word;
+      }
+      .sidebar-contact .default-btn {
+        display: block;
+        padding: 15px 25px;
+        background: white;
+        color: #1e3a5f;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 600;
+        text-align: center;
+        transition: all 0.3s;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        margin-top: 25px;
+      }
+      .sidebar-contact .default-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+      }
+      .sidebar-banner {
+        background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        padding: 35px;
+        border-radius: 10px;
+        box-shadow: 0 10px 30px rgba(245, 87, 108, 0.3);
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+      .sidebar-banner::before,
+      .sidebar-banner::after {
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.1);
+      }
+      .sidebar-banner::before {
+        top: -50px;
+        right: -50px;
+        width: 150px;
+        height: 150px;
+      }
+      .sidebar-banner::after {
+        bottom: -30px;
+        left: -30px;
+        width: 100px;
+        height: 100px;
+      }
+      .sidebar-banner .banner-content {
+        position: relative;
+        z-index: 1;
+      }
+      .sidebar-banner .banner-content > div:first-child {
+        width: 70px;
+        height: 70px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 20px;
+        backdrop-filter: blur(10px);
+      }
+      .sidebar-banner h3 {
+        font-size: 26px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 15px;
+      }
+      .sidebar-banner p {
+        color: rgba(255, 255, 255, 0.95);
+        margin-bottom: 25px;
+        line-height: 1.7;
+      }
+      .sidebar-banner .default-btn {
+        display: inline-block;
+        padding: 14px 30px;
+        background: white;
+        color: #f5576c;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 600;
+        transition: all 0.3s;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      }
+      .sidebar-banner .default-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        background: #f8f9fa;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Pre Loader -->
+    <div class="preloader">
+      <div class="d-table">
+        <div class="d-table-cell">
+          <div class="spinner"></div>
+        </div>
+      </div>
+    </div>
+    <!-- End Pre Loader -->
+
+    <!-- Top Header Start -->
+    <!-- <header class="top-header top-header-bg">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7 col-md-6">
+            <div class="top-head-left">
+              <div class="top-contact">
+                <h3>
+                  Support By : <a href="tel:12122555511">+1 (212) 255-5511</a>
+                </h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-6">
+            <div class="top-header-right">
+              <div class="top-header-social">
+                <ul>
+                  <li>
+                    <a href="https://www.facebook.com/" target="_blank">
+                      <i class="bx bxl-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/?lang=en" target="_blank">
+                      <i class="bx bxl-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/" target="_blank">
+                      <i class="bx bxl-linkedin-square"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/" target="_blank">
+                      <i class="bx bxl-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="language-list">
+                <select class="language-list-item">
+                  <option>English</option>
+                  <option>العربيّة</option>
+                  <option>Deutsch</option>
+                  <option>Português</option>
+                  <option>简体中文</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header> -->
+    <!-- Top Header End -->
+
+    <!-- Start Navbar Area -->
+    <div class="navbar-area">
+      <!-- Menu For Mobile Device -->
+      <div class="mobile-nav">
+        <a href="index.html" class="logo">
+          <img src="/assets/img/logo.png" class="logo-one" alt="Logo" />
+          <img src="/assets/img/logo.png" class="logo-two" alt="Logo" />
+        </a>
+      </div>
+
+      <!-- Menu For Desktop Device -->
+      <div class="main-nav">
+        <div class="container">
+          <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="index.html">
+              <img src="/assets/img/logo.png" class="logo-one" alt="Logo" />
+              <img src="/assets/img/logo.png" class="logo-two" alt="Logo" />
+            </a>
+
+            <div
+              class="collapse navbar-collapse mean-menu"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav m-auto">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link"> Home </a>
+                </li>
+                <li class="nav-item">
+                  <a href="about.html" class="nav-link"> About </a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    Devisions
+                    <i class="bx bx-caret-down"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a href="devisions-details.html" class="nav-link">
+                        Fabritekme
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="devisions-details.html" class="nav-link">
+                        Packtekme
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="devisions-details.html" class="nav-link">
+                        Designtekme
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="devisions-details.html" class="nav-link">
+                        Robotekme
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    Products
+                    <i class="bx bx-caret-down"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a href="product-details.html" class="nav-link">
+                        Retail Solutions
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="product-details.html" class="nav-link">
+                        IT Solutions
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="product-details.html" class="nav-link">
+                        Industrial Solutions
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="product-details.html" class="nav-link">
+                        Packaging Materials
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a href="careers.html" class="nav-link"> Careers </a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="contact.html" class="nav-link"> Contact </a>
+                </li>
+              </ul>
+
+              <div class="nav-side d-display">
+                <div class="nav-side-item">
+                  <div class="search-box">
+                    <i class="bx bx-search"></i>
+                  </div>
+                </div>
+
+                <div class="nav-side-item">
+                  <div class="get-btn">
+                    <a
+                      href="contact.html"
+                      class="default-btn btn-bg-two border-radius-50"
+                      >Get A Quote <i class="bx bx-chevron-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <div class="side-nav-responsive">
+        <div class="container-max">
+          <div class="dot-menu">
+            <div class="circle-inner">
+              <div class="in-circle circle-one"></div>
+              <div class="in-circle circle-two"></div>
+              <div class="in-circle circle-three"></div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="side-nav-inner">
+              <div class="side-nav justify-content-center align-items-center">
+                <div class="side-nav-item nav-side">
+                  <div class="search-box">
+                    <i class="bx bx-search"></i>
+                  </div>
+                  <div class="get-btn">
+                    <a
+                      href="contact.html"
+                      class="default-btn btn-bg-two border-radius-50"
+                      >Get A Quote <i class="bx bx-chevron-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Navbar Area -->
+
+    <!-- Search Overlay -->
+    <div class="search-overlay">
+      <div class="d-table">
+        <div class="d-table-cell">
+          <div class="search-layer"></div>
+          <div class="search-layer"></div>
+          <div class="search-layer"></div>
+
+          <div class="search-close">
+            <span class="search-close-line"></span>
+            <span class="search-close-line"></span>
+          </div>
+
+          <div class="search-form">
+            <form>
+              <input
+                type="text"
+                class="input-search"
+                placeholder="Search here..."
+              />
+              <button type="submit"><i class="bx bx-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Search Overlay -->
+
+    <!-- Inner Banner -->
+    <div class="inner-banner">
+      <div class="container">
+        <div
+          class="inner-title text-center wow fadeInUp"
+          data-wow-duration="1s"
+          data-wow-delay="0.3s"
+        >
+          <h3>Product Details</h3>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <i class="bx bx-chevrons-right"></i>
+            </li>
+            <li>Product Details</li>
+          </ul>
+        </div>
+      </div>
+      <div class="inner-shape">
+        <img
+          src="https://templates.hibootstrap.com/techex/default/assets/images/shape/inner-shape.png"
+          alt="Images"
+        />
+      </div>
+    </div>
+    <!-- Inner Banner End -->
+
+    <!-- Product Details Area -->
+    <div class="service-details-area pt-100 pb-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="service-details-content">
+              <div
+                class="service-details-img wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0.3s"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&h=600&fit=crop"
+                  alt="Industrial Automation Solutions"
+                  style="
+                    width: 100%;
+                    height: 450px;
+                    object-fit: cover;
+                    border-radius: 10px;
+                    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+                  "
+                />
+              </div>
+
+              <div
+                class="service-details-text wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0.4s"
+                style="margin-top: 30px"
+              >
+                <h2
+                  style="
+                    font-size: 36px;
+                    font-weight: 700;
+                    color: #1e3a5f;
+                    margin-bottom: 20px;
+                    line-height: 1.3;
+                  "
+                >
+                  Industrial Automation Solutions
+                </h2>
+                <p
+                  style="
+                    font-size: 16px;
+                    line-height: 1.8;
+                    color: #555;
+                    margin-bottom: 20px;
+                  "
+                >
+                  Our Industrial Automation Solutions are designed to transform
+                  your manufacturing and production processes. With cutting-edge
+                  technology and years of industry expertise, we deliver
+                  automation systems that enhance efficiency, reduce operational
+                  costs, and improve overall productivity.
+                </p>
+                <p style="font-size: 16px; line-height: 1.8; color: #555">
+                  Whether you're looking to automate a single production line or
+                  implement a comprehensive factory automation system, our
+                  solutions are scalable and tailored to meet your specific
+                  business needs. We work closely with clients across various
+                  industries including manufacturing, logistics, and
+                  warehousing.
+                </p>
+              </div>
+
+              <div
+                class="service-details-features wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0.5s"
+                style="
+                  margin-top: 40px;
+                  padding: 30px;
+                  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+                  border-radius: 10px;
+                "
+              >
+                <h3
+                  style="
+                    font-size: 28px;
+                    font-weight: 700;
+                    color: #1e3a5f;
+                    margin-bottom: 25px;
+                  "
+                >
+                  Product Features
+                </h3>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <ul
+                      class="feature-list"
+                      style="list-style: none; padding: 0"
+                    >
+                      <li
+                        style="
+                          padding: 12px 0;
+                          font-size: 16px;
+                          color: #333;
+                          border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+                        "
+                      >
+                        <i
+                          class="bx bx-check-circle"
+                          style="
+                            color: #00c853;
+                            font-size: 22px;
+                            margin-right: 10px;
+                          "
+                        ></i>
+                        Advanced PLC Programming & Integration
+                      </li>
+                      <li
+                        style="
+                          padding: 12px 0;
+                          font-size: 16px;
+                          color: #333;
+                          border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+                        "
+                      >
+                        <i
+                          class="bx bx-check-circle"
+                          style="
+                            color: #00c853;
+                            font-size: 22px;
+                            margin-right: 10px;
+                          "
+                        ></i>
+                        SCADA System Implementation
+                      </li>
+                      <li
+                        style="
+                          padding: 12px 0;
+                          font-size: 16px;
+                          color: #333;
+                          border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+                        "
+                      >
+                        <i
+                          class="bx bx-check-circle"
+                          style="
+                            color: #00c853;
+                            font-size: 22px;
+                            margin-right: 10px;
+                          "
+                        ></i>
+                        HMI Development & Configuration
+                      </li>
+                      <li style="padding: 12px 0; font-size: 16px; color: #333">
+                        <i
+                          class="bx bx-check-circle"
+                          style="
+                            color: #00c853;
+                            font-size: 22px;
+                            margin-right: 10px;
+                          "
+                        ></i>
+                        Robotic System Integration
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <ul
+                      class="feature-list"
+                      style="list-style: none; padding: 0"
+                    >
+                      <li
+                        style="
+                          padding: 12px 0;
+                          font-size: 16px;
+                          color: #333;
+                          border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+                        "
+                      >
+                        <i
+                          class="bx bx-check-circle"
+                          style="
+                            color: #00c853;
+                            font-size: 22px;
+                            margin-right: 10px;
+                          "
+                        ></i>
+                        Real-time Data Monitoring & Analytics
+                      </li>
+                      <li
+                        style="
+                          padding: 12px 0;
+                          font-size: 16px;
+                          color: #333;
+                          border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+                        "
+                      >
+                        <i
+                          class="bx bx-check-circle"
+                          style="
+                            color: #00c853;
+                            font-size: 22px;
+                            margin-right: 10px;
+                          "
+                        ></i>
+                        IoT Sensor Integration
+                      </li>
+                      <li
+                        style="
+                          padding: 12px 0;
+                          font-size: 16px;
+                          color: #333;
+                          border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+                        "
+                      >
+                        <i
+                          class="bx bx-check-circle"
+                          style="
+                            color: #00c853;
+                            font-size: 22px;
+                            margin-right: 10px;
+                          "
+                        ></i>
+                        Predictive Maintenance Systems
+                      </li>
+                      <li style="padding: 12px 0; font-size: 16px; color: #333">
+                        <i
+                          class="bx bx-check-circle"
+                          style="
+                            color: #00c853;
+                            font-size: 22px;
+                            margin-right: 10px;
+                          "
+                        ></i>
+                        24/7 Technical Support
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="service-details-benefits wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0.6s"
+                style="margin-top: 40px"
+              >
+                <h3
+                  style="
+                    font-size: 28px;
+                    font-weight: 700;
+                    color: #1e3a5f;
+                    margin-bottom: 30px;
+                  "
+                >
+                  Key Benefits
+                </h3>
+                <div class="row">
+                  <div class="col-lg-4 col-md-6" style="margin-bottom: 20px">
+                    <div
+                      class="benefit-card wow fadeInUp"
+                      data-wow-duration="1s"
+                      data-wow-delay="0. sourceds"
+                      style="
+                        background: white;
+                        padding: 30px;
+                        border-radius: 10px;
+                        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+                        text-align: center;
+                        transition: transform 0.3s, box-shadow 0.3s;
+                        height: 100%;
+                      "
+                      onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.15)';"
+                      onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 20px rgba(0,0,0,0.08)';"
+                    >
+                      <div
+                        style="
+                          width: 80px;
+                          height: 80px;
+                          background: linear-gradient(
+                            135deg,
+                            #667eea 0%,
+                            #764ba2 100%
+                          );
+                          border-radius: 50%;
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          margin: 0 auto 20px;
+                        "
+                      >
+                        <i
+                          class="flaticon-effective"
+                          style="font-size: 40px; color: white"
+                        ></i>
+                      </div>
+                      <h4
+                        style="
+                          font-size: 22px;
+                          font-weight: 600;
+                          color: #1e3a5f;
+                          margin-bottom: 15px;
+                        "
+                      >
+                        Increased Efficiency
+                      </h4>
+                      <p style="font-size: 15px; line-height: 1.6; color: #666">
+                        Reduce production time by up to 40% with optimized
+                        automation workflows.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6" style="margin-bottom: 20px">
+                    <div
+                      class="benefit-card wow fadeInUp"
+                      data-wow-duration="1s"
+                      data-wow-delay="0.4s"
+                      style="
+                        background: white;
+                        padding: 30px;
+                        border-radius: 10px;
+                        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+                        text-align: center;
+                        transition: transform 0.3s, box-shadow 0.3s;
+                        height: 100%;
+                      "
+                      onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.15)';"
+                      onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 20px rgba(0,0,0,0.08)';"
+                    >
+                      <div
+                        style="
+                          width: 80px;
+                          height: 80px;
+                          background: linear-gradient(
+                            135deg,
+                            #f093fb 0%,
+                            #f5576c 100%
+                          );
+                          border-radius: 50%;
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          margin: 0 auto 20px;
+                        "
+                      >
+                        <i
+                          class="flaticon-stats"
+                          style="font-size: 40px; color: white"
+                        ></i>
+                      </div>
+                      <h4
+                        style="
+                          font-size: 22px;
+                          font-weight: 600;
+                          color: #1e3a5f;
+                          margin-bottom: 15px;
+                        "
+                      >
+                        Cost Reduction
+                      </h4>
+                      <p style="font-size: 15px; line-height: 1.6; color: #666">
+                        Lower operational costs through improved resource
+                        utilization and reduced waste.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6" style="margin-bottom: 20px">
+                    <div
+                      class="benefit-card wow fadeInUp"
+                      data-wow-duration="1s"
+                      data-wow-delay="0.5s"
+                      style="
+                        background: white;
+                        padding: 30px;
+                        border-radius: 10px;
+                        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+                        text-align: center;
+                        transition: transform 0.3s, box-shadow 0.3s;
+                        height: 100%;
+                      "
+                      onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.15)';"
+                      onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 20px rgba(0,0,0,0.08)';"
+                    >
+                      <div
+                        style="
+                          width: 80px;
+                          height: 80px;
+                          background: linear-gradient(
+                            135deg,
+                            #4facfe 0%,
+                            #00f2fe 100%
+                          );
+                          border-radius: 50%;
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          margin: 0 auto 20px;
+                        "
+                      >
+                        <i
+                          class="flaticon-tick"
+                          style="font-size: 40px; color: white"
+                        ></i>
+                      </div>
+                      <h4
+                        style="
+                          font-size: 22px;
+                          font-weight: 600;
+                          color: #1e3a5f;
+                          margin-bottom: 15px;
+                        "
+                      >
+                        Quality Improvement
+                      </h4>
+                      <p style="font-size: 15px; line-height: 1.6; color: #666">
+                        Consistent quality output with precision automation
+                        reducing human error.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="service-details-faq wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0.7s"
+              >
+                <h3>Product Specifications</h3>
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                      >
+                        Technical Specifications
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOne"
+                      class="accordion-collapse collapse show"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <ul>
+                          <li>
+                            Compatible with major PLC brands (Siemens,
+                            Allen-Bradley, Schneider)
+                          </li>
+                          <li>
+                            Support for multiple communication protocols
+                            (Modbus, Ethernet/IP, Profinet)
+                          </li>
+                          <li>
+                            Scalable architecture supporting 10 to 10,000+ I/O
+                            points
+                          </li>
+                          <li>
+                            Cloud connectivity and remote monitoring
+                            capabilities
+                          </li>
+                          <li>
+                            Enterprise-grade security with encrypted data
+                            transmission
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                      >
+                        Implementation Process
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseTwo"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <p>Our implementation process includes:</p>
+                        <ol>
+                          <li>
+                            <strong>Assessment:</strong> Comprehensive analysis
+                            of your current systems and requirements
+                          </li>
+                          <li>
+                            <strong>Design:</strong> Custom solution design
+                            tailored to your operational needs
+                          </li>
+                          <li>
+                            <strong>Development:</strong> System development and
+                            integration with minimal disruption
+                          </li>
+                          <li>
+                            <strong>Testing:</strong> Rigorous testing and
+                            quality assurance
+                          </li>
+                          <li>
+                            <strong>Deployment:</strong> Smooth deployment with
+                            comprehensive training
+                          </li>
+                          <li>
+                            <strong>Support:</strong> Ongoing maintenance and
+                            optimization services
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                      >
+                        Industries Served
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseThree"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          Our automation solutions serve a wide range of
+                          industries:
+                        </p>
+                        <ul>
+                          <li>Manufacturing & Production</li>
+                          <li>Food & Beverage Processing</li>
+                          <li>Pharmaceutical Manufacturing</li>
+                          <li>Textile & Apparel</li>
+                          <li>Automotive Parts Manufacturing</li>
+                          <li>Logistics & Warehousing</li>
+                          <li>Packaging & Distribution</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="service-details-sidebar">
+              <div
+                class="sidebar-category wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0.3s"
+                style="
+                  background: white;
+                  padding: 30px;
+                  border-radius: 10px;
+                  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+                  margin-bottom: 30px;
+                "
+              >
+                <h3
+                  style="
+                    font-size: 24px;
+                    font-weight: 700;
+                    color: #1e3a5f;
+                    margin-bottom: 20px;
+                    padding-bottom: 15px;
+                    border-bottom: 2px solid #f0f0f0;
+                  "
+                >
+                  Product Categories
+                </h3>
+                <ul
+                  class="category-list"
+                  style="list-style: none; padding: 0; margin: 0"
+                >
+                  <li style="margin-bottom: 10px">
+                    <a
+                      href="product-details.html"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        padding: 12px 15px;
+                        color: #555;
+                        text-decoration: none;
+                        border-radius: 8px;
+                        transition: all 0.3s;
+                        background: #f8f9fa;
+                      "
+                      onmouseover="this.style.background='linear-gradient(135deg, #667eea 0%, #764ba2 100%)'; this.style.color='white';"
+                      onmouseout="this.style.background='#f8f9fa'; this.style.color='#555';"
+                    >
+                      <i
+                        class="bx bx-chevron-right"
+                        style="margin-right: 10px; font-size: 18px"
+                      ></i>
+                      <span style="font-weight: 500">Retail Solutions</span>
+                    </a>
+                  </li>
+                  <li style="margin-bottom: 10px">
+                    <a
+                      href="product-details.html"
+                      class="active"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        padding: 12px 15px;
+                        color: white;
+                        text-decoration: none;
+                        border-radius: 8px;
+                        background: linear-gradient(
+                          135deg,
+                          #667eea 0%,
+                          #764ba2 100%
+                        );
+                        box-shadow: 0 4px 15px rgba(102, 126, 234, melodi.4);
+                      "
+                    >
+                      <i
+                        class="bx bx-chevron-right"
+                        style="margin-right: 10px; font-size: 18px"
+                      ></i>
+                      <span style="font-weight: 600">Industrial Solutions</span>
+                    </a>
+                  </li>
+                  <li style="margin-bottom: 10px">
+                    <a
+                      href="product-details.html"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        padding: 12px 15px;
+                        color: #555;
+                        text-decoration: none;
+                        border-radius: 8px;
+                        transition: all 0.3s;
+                        background: #f8f9fa;
+                      "
+                      onmouseover="this.style.background='linear-gradient(135deg, #f093fb 0%, #f5576c 100%)'; this.style.color='white';"
+                      onmouseout="this.style.background='#f8f9fa'; this.style.color='#555';"
+                    >
+                      <i
+                        class="bx bx-chevron-right"
+                        style="margin-right: 10px; font-size: 18px"
+                      ></i>
+                      <span style="font-weight: 500">IT Solutions</span>
+                    </a>
+                  </li>
+                  <li style="margin-bottom: 0">
+                    <a
+                      href="product-details.html"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        padding: 12px 15px;
+                        color: #555;
+                        text-decoration: none;
+                        border-radius: 8px;
+                        transition: all 0.3s;
+                        background: #f8f9fa;
+                      "
+                      onmouse集中="this.style.background='linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)'; this.style.color='white';"
+                      onmouseout="this.style.background='#f8f9fa'; this.style.color='#555';"
+                    >
+                      <i
+                        class="bx bx-chevron-right"
+                        style="margin-right: 10px; font-size: 18px"
+                      ></i>
+                      <span style="font-weight: 500">Packaging Materials</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div
+                class="sidebar-contact wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0.4s"
+              >
+                <h3>Request a Quote</h3>
+                <p>
+                  Get a customized quote for your industrial automation needs.
+                </p>
+                <div class="contact-info">
+                  <div class="contact-item">
+                    <i class="bx bx-phone"></i>
+                    <div>
+                      <span>Phone</span>
+                      <a href="tel:+12122555511">+1 (212) 255-5511</a>
+                    </div>
+                  </div>
+                  <div class="contact-item">
+                    <i class="bx bx-envelope"></i>
+                    <div>
+                      <span>Email</span>
+                      <a href="mailto:info@utekmegroup.com"
+                        >info@utekmegroup.com</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <a
+                  href="contact.html"
+                  class="default-btn btn-bg-two w-100 text-center"
+                >
+                  Get A Quote <i class="bx bx-chevron-right"></i>
+                </a>
+              </div>
+
+              <div
+                class="sidebar-banner wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0.5s"
+              >
+                <div class="banner-content">
+                  <h3 class="mt-5">Need Help?</h3>
+                  <p>
+                    Our expert team is ready to assist you with your automation
+                    requirements.
+                  </p>
+                  <a
+                    href="contact.html"
+                    class="default-btn btn-bg-one w-100 text-center"
+                  >
+                    Contact Us <i class="bx bx-chevron-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Product Details Area End -->
+
+    <!-- Related Products Area -->
+    <section class="services-area pt-100 pb-70">
+      <div class="container">
+        <div
+          class="section-title text-center wow fadeInUp"
+          data-wow-duration="1s"
+          data-wow-delay="0.3s"
+        >
+          <span class="sp-color1">Related Products</span>
+          <h2>Explore Our Other Industrial Solutions</h2>
+          <p class="margin-auto">
+            Discover more innovative products and solutions designed to enhance
+            your industrial operations.
+          </p>
+        </div>
+        <div class="row pt-45">
+          <div class="col-lg-4 col-sm-6">
+            <div
+              class="services-card wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay="0.2s"
+            >
+              <i class="flaticon-web-development"></i>
+              <h3><a href="product-details.html">ERP Systems</a></h3>
+              <p>
+                Comprehensive enterprise resource planning solutions to
+                streamline your business processes and improve operational
+                efficiency.
+              </p>
+              <a href="product-details.html" class="learn-btn">
+                Learn More <i class="bx bx-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div
+              class="services-card wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay="0.4s"
+            >
+              <i class="flaticon-consulting"></i>
+              <h3><a href="product-details.html">SCADA & MES</a></h3>
+              <p>
+                Advanced monitoring and execution systems for real-time control
+                and optimization of manufacturing operations.
+              </p>
+              <a href="product-details.html" class="learn-btn">
+                Learn More <i class="bx bx-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 offset-lg-0 offset-md-3">
+            <div
+              class="services-card wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay="0.6s"
+            >
+              <i class="flaticon-cyber-security"></i>
+              <h3><a href="product-details.html">IoT Solutions</a></h3>
+              <p>
+                Smart IoT integration for connected devices and data-driven
+                insights to optimize your industrial processes.
+              </p>
+              <a href="product-details.html" class="learn-btn">
+                Learn More <i class="bx bx-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Related Products Area End -->
+
+    <!-- Footer Area End -->
+    <footer class="footer-area footer-bg">
+      <div class="container">
+        <div class="footer-top pt-100 pb-70">
+          <div class="row">
+            <div class="col-lg-4 col-sm-6">
+              <div class="footer-widget">
+                <div class="footer-logo">
+                  <a href="index.html">
+                    <img src="/assets/img/logo.png" alt="Images" />
+                  </a>
+                </div>
+                <p>
+                  Movetekme is your trusted partner for industrial
+                  technology solutions. With expertise spanning automation,
+                  software development, and digital transformation, we help
+                  businesses across the Middle East and South Asia achieve
+                  operational excellence.
+                </p>
+                <div class="footer-call-content">
+                  <h3>Talk to Our Support</h3>
+                  <span><a href="tel:+966500510409">+966 500510409</a></span>
+                  <i class="bx bx-headphone"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-6">
+              <div class="footer-widget pl-2">
+                <h3>Services</h3>
+                <ul class="footer-list">
+                  <li>
+                    <a href="service-details.html" target="_blank">
+                      <i class="bx bx-chevron-right"></i>
+                      Industrial Automation
+                    </a>
+                  </li>
+                  <li>
+                    <a href="service-details.html" target="_blank">
+                      <i class="bx bx-chevron-right"></i>
+                      Cloud Solutions
+                    </a>
+                  </li>
+                  <li>
+                    <a href="service-details.html" target="_blank">
+                      <i class="bx bx-chevron-right"></i>
+                      Industrial Software
+                    </a>
+                  </li>
+                  <li>
+                    <a href="compare.html" target="_blank">
+                      <i class="bx bx-chevron-right"></i>
+                      Digital Transformation
+                    </a>
+                  </li>
+                  <li>
+                    <a href="service-details.html" target="_blank">
+                      <i class="bx bx-chevron-right"></i>
+                      ERP Systems
+                    </a>
+                  </li>
+                  <li>
+                    <a href="service-details.html" target="_blank">
+                      <i class="bx bx-chevron-right"></i>
+                      SCADA & MES
+                    </a>
+                  </li>
+                  <li>
+                    <a href="service-details.html" target="_blank">
+                      <i class="bx bx-chevron-right"></i>
+                      IoT Integration
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="footer-widget pl-5">
+                <h3>Our Blog</h3>
+                <ul class="footer-blog">
+                  <li>
+                    <a href="blog-details.html">
+                      <img
+                        src="https://templates.hibootstrap.com/techex/default/assets/images/blog/blog-img-footer.jpg"
+                        alt="Images"
+                      />
+                    </a>
+                    <div class="content">
+                      <h3>
+                        <a href="blog-details.html"
+                          >The Future of Industrial Automation in
+                          Manufacturing</a
+                        >
+                      </h3>
+                      <span>04 Dec 2024</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <a href="blog-details.html">
+                      <img
+                        src="https://templates.hibootstrap.com/techex/default/assets/images/blog/blog-img-footer2.jpg"
+                        alt="Images"
+                      />
+                    </a>
+                    <div class="content">
+                      <h3>
+                        <a href="blog-details.html"
+                          >Cloud Solutions for Modern Industrial Enterprises</a
+                        >
+                      </h3>
+                      <span>07 Dec 2024</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <a href="blog-details.html">
+                      <img
+                        src="https://templates.hibootstrap.com/techex/default/assets/images/blog/blog-img-footer3.jpg"
+                        alt="Images"
+                      />
+                    </a>
+                    <div class="content">
+                      <h3>
+                        <a href="blog-details.html"
+                          >Digital Transformation Roadmap for Industrial
+                          Companies</a
+                        >
+                      </h3>
+                      <span>10 Dec 2024</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="footer-widget">
+                <h3>Newsletter</h3>
+                <p>
+                  Stay updated with the latest trends in industrial technology,
+                  automation, and digital transformation. Subscribe to our
+                  newsletter for expert insights and industry news.
+                </p>
+                <div class="newsletter-area">
+                  <form
+                    class="newsletter-form"
+                    data-toggle="validator"
+                    method="POST"
+                  >
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Enter Your Email"
+                      name="EMAIL"
+                      required
+                      autocomplete="off"
+                    />
+                    <button class="subscribe-btn" type="submit">
+                      <i class="bx bxs-paper-plane"></i>
+                    </button>
+                    <div id="validator-newsletter" class="form-result"></div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="copy-right-area">
+          <div class="copy-right-text">
+            <p>
+              Copyright ©
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              Movetekme. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Area End -->
+
+    <!-- Color Switch Button -->
+    <div class="switch-box">
+      <label id="switch" class="switch">
+        <input type="checkbox" onchange="toggleTheme()" id="slider" />
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <!-- Color Switch Button End -->
+
+    <!-- Jquery Min JS -->
+    <script src="https://templates.hibootstrap.com/techex/default/assets/js/jquery.min.js"></script>
+    <!-- Bootstrap Bundle Min JS -->
+    <script src="https://templates.hibootstrap.com/techex/default/assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Owl Carousel Min JS -->
+    <script src="https://templates.hibootstrap.com/techex/default/assets/js/owl.carousel.min.js"></script>
+    <!-- Magnific Popup Min JS -->
+    <script src="https://templates.hibootstrap.com/techex/default/assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Nice Select Min JS -->
+    <script src="https://templates.hibootstrap.com/techex/default/assets/js/jquery.nice-select.min.js"></script>
+    <!-- Wow Min JS -->
+    <script src="https://templates.hibootstrap.com/techex/default/assets/js/wow.min.js"></script>
+    <!-- Meanmenu JS -->
+    <script src="https://templates.hibootstrap.com/techex/default/assets/js/meanmenu.js"></script>
+    <!-- Ajaxchimp Min JS -->
+    <script src="https://templates.hibootstrap.com/techex/default/assets/js/jquery.ajaxchimp.min.js"></script>
+    <!-- Form Validator Min JS -->
+    <script src="https://templates.hibootstrap.com/techex/default/assets/js/form-validator.min.js"></script>
+    <!-- Contact Form JS -->
+    <script src="https://templates.hibootstrap.com/techex/default/assets/js/contact-form-script.js"></script>
+    <!-- Custom JS -->
+    <script src="https://templates.hibootstrap.com/techex/default/assets/js/custom.js"></script>
+    <!-- WOW.js Initialization -->
+    <script>
+      if (typeof WOW !== "undefined") {
+        new WOW({
+          boxClass: "wow",
+          animateClass: "animated",
+          offset: 0,
+          mobile: true,
+          live: true,
+        }).init();
+      }
+    </script>
+  </body>
+</html>
