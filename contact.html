@@ -73,10 +73,37 @@
         max-width: 110px;
         height: auto;
       }
+
+      /* Inner Banner Background Image */
+      .inner-banner {
+        background-image: url("https://images.unsplash.com/photo-1552664730-d307ca884978?w=1920&h=600&fit=crop");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+      }
+
+      .inner-banner::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+      }
+
+      .inner-banner .container {
+        position: relative;
+        z-index: 2;
+      }
     </style>
 
     <!--=== Title & Favicon ===-->
-    <title>Movetekme - Contact Us | Industrial Technology Solutions Provider</title>
+    <title>
+      Movetekme - Contact Us | Industrial Technology Solutions Provider
+    </title>
     <link
       rel="icon"
       type="image/png"
@@ -188,7 +215,7 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li class="nav-item">
-                      <a href="devisions-details.html" class="nav-link">
+                      <a href="fabritekme-details.html" class="nav-link">
                         Fabritekme
                       </a>
                     </li>
@@ -222,18 +249,23 @@
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a href="product-details.html" class="nav-link">
-                        Technical Solutions
+                      <a href="modular-belts.html" class="nav-link">
+                        Modular Belts
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a href="product-details.html" class="nav-link">
-                        Industrial Solutions
+                      <a href="acetal-chains.html" class="nav-link">
+                        Acetal Chains
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a href="product-details.html" class="nav-link">
-                        Packaging Materials
+                      <a href="plastic-chains.html" class="nav-link">
+                        Plastic Chains
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="other-products.html" class="nav-link">
+                        Other Products
                       </a>
                     </li>
                   </ul>

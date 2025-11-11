@@ -73,6 +73,31 @@
         max-width: 110px;
         height: auto;
       }
+
+      /* Inner Banner Background Image */
+      .inner-banner {
+        background-image: url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1920&h=600&fit=crop");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+      }
+
+      .inner-banner::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+      }
+
+      .inner-banner .container {
+        position: relative;
+        z-index: 2;
+      }
     </style>
 
     <!--=== Title & Favicon ===-->
@@ -204,7 +229,7 @@
         background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
         padding: 80px 0;
         border-radius: 20px;
-        margin: 80px 0;
+        /* margin: 80px 0; */
       }
       .application-form {
         background: white;
@@ -384,7 +409,7 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li class="nav-item">
-                      <a href="devisions-details.html" class="nav-link">
+                      <a href="fabritekme-details.html" class="nav-link">
                         Fabritekme
                       </a>
                     </li>
@@ -418,18 +443,23 @@
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a href="product-details.html" class="nav-link">
-                        Technical Solutions
+                      <a href="modular-belts.html" class="nav-link">
+                        Modular Belts
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a href="product-details.html" class="nav-link">
-                        Industrial Solutions
+                      <a href="acetal-chains.html" class="nav-link">
+                        Acetal Chains
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a href="product-details.html" class="nav-link">
-                        Packaging Materials
+                      <a href="plastic-chains.html" class="nav-link">
+                        Plastic Chains
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="other-products.html" class="nav-link">
+                        Other Products
                       </a>
                     </li>
                   </ul>
@@ -568,10 +598,10 @@
             >
               <h1 style="color: white">Join Our Dynamic Team</h1>
               <p style="color: white">
-                At Movetekme, we believe in empowering talent. We offer
-                career growth opportunities across fabrication, packaging,
-                design, and robotics. Whether you’re an engineer, designer, or
-                technician, we provide a platform to learn, grow, and lead.
+                At Movetekme, we believe in empowering talent. We offer career
+                growth opportunities across fabrication, packaging, design, and
+                robotics. Whether you’re an engineer, designer, or technician,
+                we provide a platform to learn, grow, and lead.
               </p>
             </div>
           </div>
@@ -774,7 +804,7 @@
     </section>
 
     <!-- Open Positions Section -->
-    <section class="pt-100 pb-70">
+    <!-- <section class="pt-100 pb-70">
       <div class="container">
         <div
           class="section-title text-center wow fadeInUp"
@@ -1115,7 +1145,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Application Form Section -->
     <section class="application-form-section" id="apply-form">
@@ -1252,11 +1282,11 @@
                   </a>
                 </div>
                 <p>
-                  Movetekme is your trusted partner for industrial
-                  technology solutions. With expertise spanning automation,
-                  software development, and digital transformation, we help
-                  businesses across the Middle East and South Asia achieve
-                  operational excellence.
+                  Movetekme is your trusted partner for industrial technology
+                  solutions. With expertise spanning automation, software
+                  development, and digital transformation, we help businesses
+                  across the Middle East and South Asia achieve operational
+                  excellence.
                 </p>
                 <div class="footer-call-content">
                   <h3>Talk to Our Support</h3>

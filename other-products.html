@@ -73,10 +73,104 @@
         max-width: 110px;
         height: auto;
       }
+
+      /* Product Portfolio Styles */
+      .product-portfolio-title {
+        font-size: 48px;
+        font-weight: bold;
+        color: #8b0000;
+        text-align: center;
+        margin: 60px 0 50px;
+      }
+
+      .product-section {
+        margin-bottom: 80px;
+        position: relative;
+      }
+
+      .product-title-box {
+        position: relative;
+        padding: 20px 40px;
+        display: inline-block;
+        transform: skewX(-10deg);
+        margin-bottom: 30px;
+        z-index: 2;
+      }
+
+      .product-title-box .title-text {
+        transform: skewX(10deg);
+        color: #fff;
+        font-size: 28px;
+        font-weight: bold;
+        margin: 0;
+        white-space: nowrap;
+      }
+
+      .product-content {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        flex-wrap: wrap;
+      }
+
+      .product-image-container {
+        flex: 1;
+        min-width: 300px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .product-description {
+        flex: 1;
+        min-width: 300px;
+      }
+
+      .product-description ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .product-description ul li {
+        color: #8b0000;
+        font-size: 16px;
+        line-height: 1.8;
+        margin-bottom: 12px;
+        padding-left: 25px;
+        position: relative;
+      }
+
+      .product-description ul li:before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        font-size: 24px;
+        line-height: 1;
+      }
+
+      @media (max-width: 768px) {
+        .product-content {
+          flex-direction: column;
+        }
+
+        .product-title-box {
+          transform: skewX(0deg);
+        }
+
+        .product-title-box .title-text {
+          transform: skewX(0deg);
+        }
+      }
     </style>
 
     <!--=== Title & Favicon ===-->
-    <title>Movetekme - Industrial Technology Solutions Provider</title>
+    <title>
+      Movetekme - Contact Us | Industrial Technology Solutions Provider
+    </title>
     <link
       rel="icon"
       type="image/png"
@@ -308,6 +402,192 @@
     </div>
     <!-- End Navbar Area -->
 
+    <!-- Product Portfolio Section -->
+    <section
+      class="product-portfolio-section pt-100 pb-100"
+      style="
+        background-color: #fff;
+        background-image: repeating-linear-gradient(
+          45deg,
+          transparent,
+          transparent 20px,
+          rgba(245, 245, 245, 0.3) 20px,
+          rgba(245, 245, 245, 0.3) 40px
+        );
+      "
+    >
+      <div class="container">
+        <h1 class="product-portfolio-title">Product Portfolio</h1>
+
+        <!-- Solar Panel Systems -->
+        <div class="product-section">
+          <div class="product-title-box" style="background-color: #1e3a5f">
+            <h2 class="title-text">Solar Panel Systems</h2>
+          </div>
+          <div class="product-content">
+            <div class="product-image-container">
+              <img
+                src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&h=600&fit=crop"
+                alt="Solar Panel Systems"
+              />
+            </div>
+            <div class="product-description">
+              <ul>
+                <li>
+                  Turnkey solutions for clean and sustainable energy generation.
+                </li>
+                <li>
+                  Design, installation, and maintenance services for diverse
+                  applications.
+                </li>
+                <li>
+                  Products include solar plates, Inverters, Wires, Structures,
+                  Breakers, Lithium-ion batteries, Tall tabular Batteries, MCBS,
+                  Zero Protection Devices, and Distribution boxes.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Machining Products -->
+        <div class="product-section">
+          <div class="product-title-box" style="background-color: #8b0000">
+            <h2 class="title-text">Machining Products</h2>
+          </div>
+          <div class="product-content">
+            <div class="product-description">
+              <ul>
+                <li>
+                  Precision machining products meeting the highest industry
+                  standards.
+                </li>
+                <li>
+                  Utilization of advanced machining techniques for superior
+                  quality.
+                </li>
+                <li>
+                  Products made of Mild Steel, Stainless Steel, Copper, Brass,
+                  Glass fiber, Rubber, and Aluminum.
+                </li>
+                <li>
+                  Products include LINETAP, CABLE LUGS, Nut bolts, Bush, grids,
+                  wire mesh, Copper and Aluminum Bus bar, GEAR ASSEMBLIES, and
+                  EARTHING SWITCH ASSEMBLIES.
+                </li>
+              </ul>
+            </div>
+            <div class="product-image-container">
+              <img
+                src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop"
+                alt="Machining Products"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Die Casting Products -->
+        <div class="product-section">
+          <div class="product-title-box" style="background-color: #2c5f2d">
+            <h2 class="title-text">Die Casting Products</h2>
+          </div>
+          <div class="product-content">
+            <div class="product-image-container">
+              <img
+                src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&h=600&fit=crop"
+                alt="Die Casting Products"
+              />
+            </div>
+            <div class="product-description">
+              <ul>
+                <li>
+                  High-quality die casting products for a range of industrial
+                  applications.
+                </li>
+                <li>
+                  Precision-engineered components with excellent dimensional
+                  accuracy.
+                </li>
+                <li>
+                  Manufactured using advanced die casting technology for
+                  superior finish and durability.
+                </li>
+                <li>
+                  Available in various materials including Aluminum, Zinc, and
+                  Magnesium alloys.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Conveyor Systems -->
+        <div class="product-section">
+          <div class="product-title-box" style="background-color: #d2691e">
+            <h2 class="title-text">Conveyor Systems</h2>
+          </div>
+          <div class="product-content">
+            <div class="product-description">
+              <ul>
+                <li>
+                  Comprehensive conveyor system solutions for material handling.
+                </li>
+                <li>
+                  Custom-designed systems tailored to specific industrial
+                  requirements.
+                </li>
+                <li>
+                  Products include Modular Belts, Acetal Chains, Roller
+                  Conveyors, Belt Conveyors, and Chain Conveyors.
+                </li>
+                <li>
+                  Durable and efficient systems for food processing, packaging,
+                  and manufacturing industries.
+                </li>
+              </ul>
+            </div>
+            <div class="product-image-container">
+              <img
+                src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&h=600&fit=crop"
+                alt="Conveyor Systems"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Industrial Components -->
+        <div class="product-section">
+          <div class="product-title-box" style="background-color: #4b0082">
+            <h2 class="title-text">Industrial Components</h2>
+          </div>
+          <div class="product-content">
+            <div class="product-image-container">
+              <img
+                src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&h=600&fit=crop"
+                alt="Industrial Components"
+              />
+            </div>
+            <div class="product-description">
+              <ul>
+                <li>Wide range of industrial components and spare parts.</li>
+                <li>
+                  High-quality materials ensuring long-lasting performance.
+                </li>
+                <li>
+                  Products include Bearings, Seals, Gaskets, Fasteners, and
+                  Custom Fabricated Parts.
+                </li>
+                <li>
+                  Comprehensive inventory for maintenance and repair operations.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Product Portfolio Section -->
+
     <!-- Search Overlay -->
     <div class="search-overlay">
       <div class="d-table">
@@ -334,368 +614,8 @@
         </div>
       </div>
     </div>
-    <!-- End Search Overlay -->
 
-    <!-- Inner Banner -->
-    <div class="inner-banner">
-      <div class="container">
-        <div class="inner-title text-center">
-          <h3>About Us</h3>
-          <ul>
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <i class="bx bx-chevrons-right"></i>
-            </li>
-            <li>About Us</li>
-          </ul>
-        </div>
-      </div>
-      <div class="inner-shape">
-        <img
-          src="https://templates.hibootstrap.com/techex/default/assets/images/shape/inner-shape.png"
-          alt="Images"
-        />
-      </div>
-    </div>
-    <!-- Inner Banner End -->
-
-    <!-- About Area -->
-    <div class="about-area ptb-100">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="about-play">
-              <img
-                src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Industrial Services"
-              />
-              <div class="about-play-content">
-                <span>Watch Our Intro Video</span>
-                <h2>Perfect Solution for Industrial Services!</h2>
-                <div class="play-on-area">
-                  <a
-                    href="https://www.youtube.com/watch?v=tUP5S4YdEJo"
-                    class="play-on popup-btn"
-                    ><i class="bx bx-play"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="about-content ml-25">
-              <div class="section-title">
-                <span class="sp-color2">15 Years of Experience</span>
-                <h2>Right Partner for Software Innovation</h2>
-                <p>
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                  consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio
-                  sit amet.
-                </p>
-              </div>
-              <div class="row">
-                <div class="col-lg-6 col-md-6">
-                  <ul class="about-list text-start">
-                    <li>
-                      <i class="bx bxs-check-circle"></i>Cost of Supplies and
-                      Equipment
-                    </li>
-                    <li>
-                      <i class="bx bxs-check-circle"></i>Bribed Autor Nisi Elit
-                      Volume
-                    </li>
-                    <li>
-                      <i class="bx bxs-check-circle"></i>Cost of Supplies and
-                      Equipment
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="col-lg-6 col-md-6">
-                  <ul class="about-list about-list-2 text-start">
-                    <li>
-                      <i class="bx bxs-check-circle"></i>Change the Volume of
-                      Expected
-                    </li>
-                    <li>
-                      <i class="bx bxs-check-circle"></i>Easy to Customer
-                      Services
-                    </li>
-                    <li>
-                      <i class="bx bxs-check-circle"></i>Good Quality Products
-                      Services
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p class="about-content-text">
-                Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio
-                sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                ipsum velit.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- About Area End -->
-
-    <!-- Choose Area -->
-    <div class="choose-area pt-100 pb-70">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="choose-content mr-20">
-              <div class="section-title">
-                <span class="sp-color1">Why Choose Us</span>
-                <h2>We Provide Truly Prominent Industrial Solutions.</h2>
-                <p>
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                  consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio
-                  sit amet nibh vulputate cursus a sit amet mauris. Morbi
-                  accumsan ipsum auctor a ornare odio.
-                </p>
-              </div>
-              <div class="row">
-                <div class="col-lg-6 col-6">
-                  <div class="choose-content-card">
-                    <div class="content">
-                      <i class="flaticon-practice"></i>
-                      <h3>Experience</h3>
-                    </div>
-                    <p>
-                      Neque porro quisquam est qui dolorem ipsum quia dolor sit
-                      amet
-                    </p>
-                  </div>
-                </div>
-
-                <div class="col-lg-6 col-6">
-                  <div class="choose-content-card">
-                    <div class="content">
-                      <i class="flaticon-help"></i>
-                      <h3>Quick Support</h3>
-                    </div>
-                    <p>
-                      Neque porro quisquam est qui dolorem ipsum quia dolor sit
-                      amet
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="choose-img">
-              <img
-                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Industrial Solutions"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Choose Area End -->
-
-    <!-- Security Area -->
-    <div class="security-area pt-100 pb-70">
-      <div class="container">
-        <div class="section-title text-center">
-          <span class="sp-color2">Industrial Security & Computing</span>
-          <h2>
-            Searching for a Solution! We Provide Truly Prominent Industrial
-            Solutions
-          </h2>
-        </div>
-        <div class="row pt-45">
-          <div class="col-lg-4 col-sm-6">
-            <div class="security-card">
-              <i class="flaticon-cyber-security"></i>
-              <h3><a href="case-details.html">Business Security</a></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                blandit scelerisque ullamcorper proin scelerisque tortor odio.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="security-card">
-              <i class="flaticon-computer"></i>
-              <h3>
-                <a href="case-details.html">Manage Industrial Services</a>
-              </h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                blandit scelerisque ullamcorper proin scelerisque tortor odio.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="security-card">
-              <i class="flaticon-effective"></i>
-              <h3><a href="case-details.html">Product Analysis</a></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                blandit scelerisque ullamcorper proin scelerisque tortor odio.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="security-card">
-              <i class="flaticon-implement"></i>
-              <h3><a href="case-details.html">Analytic Solution</a></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                blandit scelerisque ullamcorper proin scelerisque tortor odio.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="security-card">
-              <i class="flaticon-consulting"></i>
-              <h3><a href="case-details.html">Finest Quality</a></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                blandit scelerisque ullamcorper proin scelerisque tortor odio.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="security-card">
-              <i class="flaticon-consultant"></i>
-              <h3><a href="case-details.html">Risk Management</a></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                blandit scelerisque ullamcorper proin scelerisque tortor odio.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Security Area End -->
-
-    <!-- Brand Area -->
-    <div class="brand-area-two ptb-100">
-      <div class="container">
-        <div class="brand-slider owl-carousel owl-theme">
-          <div class="brand-item">
-            <img
-              src="https://templates.hibootstrap.com/techex/default/assets/images/brand-logo/brand-style1.png"
-              alt="Images"
-            />
-          </div>
-          <div class="brand-item">
-            <img
-              src="https://templates.hibootstrap.com/techex/default/assets/images/brand-logo/brand-style2.png"
-              alt="Images"
-            />
-          </div>
-          <div class="brand-item">
-            <img
-              src="https://templates.hibootstrap.com/techex/default/assets/images/brand-logo/brand-style3.png"
-              alt="Images"
-            />
-          </div>
-          <div class="brand-item">
-            <img
-              src="https://templates.hibootstrap.com/techex/default/assets/images/brand-logo/brand-style4.png"
-              alt="Images"
-            />
-          </div>
-          <div class="brand-item">
-            <img
-              src="https://templates.hibootstrap.com/techex/default/assets/images/brand-logo/brand-style5.png"
-              alt="Images"
-            />
-          </div>
-          <div class="brand-item">
-            <img
-              src="https://templates.hibootstrap.com/techex/default/assets/images/brand-logo/brand-style3.png"
-              alt="Images"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Brand Area End -->
-
-    <!-- Counter Area -->
-    <div class="counter-area pt-100 pb-70">
-      <div class="container">
-        <div class="section-title text-center">
-          <span class="sp-color2">Numbers Are Talking</span>
-          <h2>Let’s Check Our Business Growth and Success Story</h2>
-          <p>
-            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-            ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh
-            vulputate cursus a sit amet mauris Morbi accumsan ipsum velit.
-          </p>
-        </div>
-        <div class="row pt-45">
-          <div class="col-lg-3 col-6 col-md-3">
-            <div class="counter-another-content">
-              <i class="flaticon-web-development"></i>
-              <h3>4205+</h3>
-              <span>Delivered Goods</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-6 col-md-3">
-            <div class="counter-another-content">
-              <i class="flaticon-consulting-1"></i>
-              <h3>245+</h3>
-              <span>Industrial Consulting</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-6 col-md-3">
-            <div class="counter-another-content">
-              <i class="flaticon-startup"></i>
-              <h3>3550+</h3>
-              <span>Fully Launched</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-6 col-md-3">
-            <div class="counter-another-content">
-              <i class="flaticon-tick"></i>
-              <h3>6545+</h3>
-              <span>Project Completed</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="counter-shape">
-        <div class="shape1">
-          <img
-            src="https://templates.hibootstrap.com/techex/default/assets/images/shape/shape1.png"
-            alt="Images"
-          />
-        </div>
-        <div class="shape2">
-          <img
-            src="https://templates.hibootstrap.com/techex/default/assets/images/shape/shape2.png"
-            alt="Images"
-          />
-        </div>
-      </div>
-    </div>
-    <!-- Counter Area End -->
-
-    <!-- Footer Area  -->
+    <!-- Footer Area End -->
     <footer class="footer-area footer-bg">
       <div class="container">
         <div class="footer-top pt-100 pb-70">
@@ -865,6 +785,10 @@
           <div class="copy-right-text">
             <p>
               Copyright ©
+              <script
+                data-cfasync="false"
+                src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+              ></script>
               <script>
                 document.write(new Date().getFullYear());
               </script>

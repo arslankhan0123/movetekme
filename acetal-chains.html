@@ -73,10 +73,35 @@
         max-width: 110px;
         height: auto;
       }
+
+      /* Product Image Hover Zoom Animation */
+      .product-item .product-image {
+        overflow: hidden;
+        transition: all 0.3s ease;
+      }
+
+      .product-item .product-image img {
+        transition: transform 0.5s ease;
+        transform: scale(1);
+      }
+
+      .product-item:hover .product-image img {
+        transform: scale(1.1);
+      }
+
+      /* Product Label Full Width */
+      .product-item .product-label {
+        width: 100%;
+        max-width: 95%;
+        margin: 0 auto;
+        text-align: center;
+      }
     </style>
 
     <!--=== Title & Favicon ===-->
-    <title>Movetekme - Industrial Technology Solutions Provider</title>
+    <title>
+      Movetekme - Contact Us | Industrial Technology Solutions Provider
+    </title>
     <link
       rel="icon"
       type="image/png"
@@ -308,6 +333,225 @@
     </div>
     <!-- End Navbar Area -->
 
+    <!-- Hero Background Section -->
+    <section
+      class="hero-background-section"
+      style="
+        position: relative;
+        height: 400px;
+        background-image: url('https://modutech.com.tr/images2/Modutech_Fabrika0354_kopya3_1.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      "
+    >
+      <div
+        style="
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0.3);
+        "
+      ></div>
+    </section>
+    <!-- End Hero Background Section -->
+
+    <!-- Products Section -->
+    <section
+      class="products-section pt-100 pb-100"
+      style="background-color: #fff"
+    >
+      <div class="container">
+        <!-- Section Header -->
+        <div
+          class="section-header"
+          style="
+            background-color: #8b0000;
+            padding: 20px 30px;
+            margin-bottom: 0;
+          "
+        >
+          <h2
+            style="
+              color: #fff;
+              font-size: 32px;
+              font-weight: 600;
+              margin: 0;
+              text-transform: uppercase;
+              letter-spacing: 1px;
+            "
+          >
+            Acetal Chains
+          </h2>
+        </div>
+
+        <!-- Turn Back Bar -->
+        <div
+          class="turn-back-bar mt-3"
+          style="
+            background-color: #6b0000;
+            padding: 15px 30px;
+            margin-bottom: 40px;
+          "
+        >
+          <a
+            href="javascript:history.back()"
+            style="
+              color: #fff;
+              text-decoration: none;
+              display: inline-flex;
+              align-items: center;
+              font-size: 16px;
+            "
+          >
+            <i
+              class="bx bx-arrow-back"
+              style="margin-right: 8px; font-size: 20px"
+            ></i>
+            Turn Back
+          </a>
+        </div>
+
+        <!-- Products Grid -->
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="product-item text-center">
+              <div
+                class="product-image"
+                style="
+                  background-color: #fff;
+                  padding: 20px;
+                  margin-bottom: 15px;
+                  border-radius: 5px;
+                "
+              >
+                <img
+                  src="https://modutech.com.tr/images2/MD-880-879-TAB_1.png"
+                  alt="MD 880-879 TAB"
+                  style="width: 100%; height: 250px; object-fit: contain"
+                />
+              </div>
+              <div
+                class="product-label"
+                style="
+                  background-color: #8b0000;
+                  color: #fff;
+                  padding: 12px 20px;
+                  border-radius: 3px;
+                  font-weight: 600;
+                  font-size: 16px;
+                "
+              >
+                MD 880-879 TAB
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="product-item text-center">
+              <div
+                class="product-image"
+                style="
+                  background-color: #fff;
+                  padding: 20px;
+                  margin-bottom: 15px;
+                  border-radius: 5px;
+                "
+              >
+                <img
+                  src="https://modutech.com.tr/images2/MD-880-879.png"
+                  alt="MD 880-879"
+                  style="width: 100%; height: 250px; object-fit: contain"
+                />
+              </div>
+              <div
+                class="product-label"
+                style="
+                  background-color: #8b0000;
+                  color: #fff;
+                  padding: 12px 20px;
+                  border-radius: 3px;
+                  font-weight: 600;
+                  font-size: 16px;
+                "
+              >
+                MD 880-879
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="product-item text-center">
+              <div
+                class="product-image"
+                style="
+                  background-color: #fff;
+                  padding: 20px;
+                  margin-bottom: 15px;
+                  border-radius: 5px;
+                "
+              >
+                <img
+                  src="https://modutech.com.tr/images2/MD-821.png"
+                  alt="MD 821"
+                  style="width: 100%; height: 250px; object-fit: contain"
+                />
+              </div>
+              <div
+                class="product-label"
+                style="
+                  background-color: #8b0000;
+                  color: #fff;
+                  padding: 12px 20px;
+                  border-radius: 3px;
+                  font-weight: 600;
+                  font-size: 16px;
+                "
+              >
+                MD 821
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="product-item text-center">
+              <div
+                class="product-image"
+                style="
+                  background-color: #fff;
+                  padding: 20px;
+                  margin-bottom: 15px;
+                  border-radius: 5px;
+                "
+              >
+                <img
+                  src="https://modutech.com.tr/images2/MD-820.png"
+                  alt="MD 820"
+                  style="width: 100%; height: 250px; object-fit: contain"
+                />
+              </div>
+              <div
+                class="product-label"
+                style="
+                  background-color: #8b0000;
+                  color: #fff;
+                  padding: 12px 20px;
+                  border-radius: 3px;
+                  font-weight: 600;
+                  font-size: 16px;
+                "
+              >
+                MD 820
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Products Section -->
+
     <!-- Search Overlay -->
     <div class="search-overlay">
       <div class="d-table">
@@ -334,368 +578,8 @@
         </div>
       </div>
     </div>
-    <!-- End Search Overlay -->
 
-    <!-- Inner Banner -->
-    <div class="inner-banner">
-      <div class="container">
-        <div class="inner-title text-center">
-          <h3>About Us</h3>
-          <ul>
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <i class="bx bx-chevrons-right"></i>
-            </li>
-            <li>About Us</li>
-          </ul>
-        </div>
-      </div>
-      <div class="inner-shape">
-        <img
-          src="https://templates.hibootstrap.com/techex/default/assets/images/shape/inner-shape.png"
-          alt="Images"
-        />
-      </div>
-    </div>
-    <!-- Inner Banner End -->
-
-    <!-- About Area -->
-    <div class="about-area ptb-100">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="about-play">
-              <img
-                src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Industrial Services"
-              />
-              <div class="about-play-content">
-                <span>Watch Our Intro Video</span>
-                <h2>Perfect Solution for Industrial Services!</h2>
-                <div class="play-on-area">
-                  <a
-                    href="https://www.youtube.com/watch?v=tUP5S4YdEJo"
-                    class="play-on popup-btn"
-                    ><i class="bx bx-play"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="about-content ml-25">
-              <div class="section-title">
-                <span class="sp-color2">15 Years of Experience</span>
-                <h2>Right Partner for Software Innovation</h2>
-                <p>
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                  consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio
-                  sit amet.
-                </p>
-              </div>
-              <div class="row">
-                <div class="col-lg-6 col-md-6">
-                  <ul class="about-list text-start">
-                    <li>
-                      <i class="bx bxs-check-circle"></i>Cost of Supplies and
-                      Equipment
-                    </li>
-                    <li>
-                      <i class="bx bxs-check-circle"></i>Bribed Autor Nisi Elit
-                      Volume
-                    </li>
-                    <li>
-                      <i class="bx bxs-check-circle"></i>Cost of Supplies and
-                      Equipment
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="col-lg-6 col-md-6">
-                  <ul class="about-list about-list-2 text-start">
-                    <li>
-                      <i class="bx bxs-check-circle"></i>Change the Volume of
-                      Expected
-                    </li>
-                    <li>
-                      <i class="bx bxs-check-circle"></i>Easy to Customer
-                      Services
-                    </li>
-                    <li>
-                      <i class="bx bxs-check-circle"></i>Good Quality Products
-                      Services
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p class="about-content-text">
-                Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio
-                sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                ipsum velit.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- About Area End -->
-
-    <!-- Choose Area -->
-    <div class="choose-area pt-100 pb-70">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="choose-content mr-20">
-              <div class="section-title">
-                <span class="sp-color1">Why Choose Us</span>
-                <h2>We Provide Truly Prominent Industrial Solutions.</h2>
-                <p>
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                  consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio
-                  sit amet nibh vulputate cursus a sit amet mauris. Morbi
-                  accumsan ipsum auctor a ornare odio.
-                </p>
-              </div>
-              <div class="row">
-                <div class="col-lg-6 col-6">
-                  <div class="choose-content-card">
-                    <div class="content">
-                      <i class="flaticon-practice"></i>
-                      <h3>Experience</h3>
-                    </div>
-                    <p>
-                      Neque porro quisquam est qui dolorem ipsum quia dolor sit
-                      amet
-                    </p>
-                  </div>
-                </div>
-
-                <div class="col-lg-6 col-6">
-                  <div class="choose-content-card">
-                    <div class="content">
-                      <i class="flaticon-help"></i>
-                      <h3>Quick Support</h3>
-                    </div>
-                    <p>
-                      Neque porro quisquam est qui dolorem ipsum quia dolor sit
-                      amet
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="choose-img">
-              <img
-                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Industrial Solutions"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Choose Area End -->
-
-    <!-- Security Area -->
-    <div class="security-area pt-100 pb-70">
-      <div class="container">
-        <div class="section-title text-center">
-          <span class="sp-color2">Industrial Security & Computing</span>
-          <h2>
-            Searching for a Solution! We Provide Truly Prominent Industrial
-            Solutions
-          </h2>
-        </div>
-        <div class="row pt-45">
-          <div class="col-lg-4 col-sm-6">
-            <div class="security-card">
-              <i class="flaticon-cyber-security"></i>
-              <h3><a href="case-details.html">Business Security</a></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                blandit scelerisque ullamcorper proin scelerisque tortor odio.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="security-card">
-              <i class="flaticon-computer"></i>
-              <h3>
-                <a href="case-details.html">Manage Industrial Services</a>
-              </h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                blandit scelerisque ullamcorper proin scelerisque tortor odio.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="security-card">
-              <i class="flaticon-effective"></i>
-              <h3><a href="case-details.html">Product Analysis</a></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                blandit scelerisque ullamcorper proin scelerisque tortor odio.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="security-card">
-              <i class="flaticon-implement"></i>
-              <h3><a href="case-details.html">Analytic Solution</a></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                blandit scelerisque ullamcorper proin scelerisque tortor odio.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="security-card">
-              <i class="flaticon-consulting"></i>
-              <h3><a href="case-details.html">Finest Quality</a></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                blandit scelerisque ullamcorper proin scelerisque tortor odio.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="security-card">
-              <i class="flaticon-consultant"></i>
-              <h3><a href="case-details.html">Risk Management</a></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                blandit scelerisque ullamcorper proin scelerisque tortor odio.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Security Area End -->
-
-    <!-- Brand Area -->
-    <div class="brand-area-two ptb-100">
-      <div class="container">
-        <div class="brand-slider owl-carousel owl-theme">
-          <div class="brand-item">
-            <img
-              src="https://templates.hibootstrap.com/techex/default/assets/images/brand-logo/brand-style1.png"
-              alt="Images"
-            />
-          </div>
-          <div class="brand-item">
-            <img
-              src="https://templates.hibootstrap.com/techex/default/assets/images/brand-logo/brand-style2.png"
-              alt="Images"
-            />
-          </div>
-          <div class="brand-item">
-            <img
-              src="https://templates.hibootstrap.com/techex/default/assets/images/brand-logo/brand-style3.png"
-              alt="Images"
-            />
-          </div>
-          <div class="brand-item">
-            <img
-              src="https://templates.hibootstrap.com/techex/default/assets/images/brand-logo/brand-style4.png"
-              alt="Images"
-            />
-          </div>
-          <div class="brand-item">
-            <img
-              src="https://templates.hibootstrap.com/techex/default/assets/images/brand-logo/brand-style5.png"
-              alt="Images"
-            />
-          </div>
-          <div class="brand-item">
-            <img
-              src="https://templates.hibootstrap.com/techex/default/assets/images/brand-logo/brand-style3.png"
-              alt="Images"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Brand Area End -->
-
-    <!-- Counter Area -->
-    <div class="counter-area pt-100 pb-70">
-      <div class="container">
-        <div class="section-title text-center">
-          <span class="sp-color2">Numbers Are Talking</span>
-          <h2>Let’s Check Our Business Growth and Success Story</h2>
-          <p>
-            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-            ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh
-            vulputate cursus a sit amet mauris Morbi accumsan ipsum velit.
-          </p>
-        </div>
-        <div class="row pt-45">
-          <div class="col-lg-3 col-6 col-md-3">
-            <div class="counter-another-content">
-              <i class="flaticon-web-development"></i>
-              <h3>4205+</h3>
-              <span>Delivered Goods</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-6 col-md-3">
-            <div class="counter-another-content">
-              <i class="flaticon-consulting-1"></i>
-              <h3>245+</h3>
-              <span>Industrial Consulting</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-6 col-md-3">
-            <div class="counter-another-content">
-              <i class="flaticon-startup"></i>
-              <h3>3550+</h3>
-              <span>Fully Launched</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-6 col-md-3">
-            <div class="counter-another-content">
-              <i class="flaticon-tick"></i>
-              <h3>6545+</h3>
-              <span>Project Completed</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="counter-shape">
-        <div class="shape1">
-          <img
-            src="https://templates.hibootstrap.com/techex/default/assets/images/shape/shape1.png"
-            alt="Images"
-          />
-        </div>
-        <div class="shape2">
-          <img
-            src="https://templates.hibootstrap.com/techex/default/assets/images/shape/shape2.png"
-            alt="Images"
-          />
-        </div>
-      </div>
-    </div>
-    <!-- Counter Area End -->
-
-    <!-- Footer Area  -->
+    <!-- Footer Area End -->
     <footer class="footer-area footer-bg">
       <div class="container">
         <div class="footer-top pt-100 pb-70">
@@ -865,6 +749,10 @@
           <div class="copy-right-text">
             <p>
               Copyright ©
+              <script
+                data-cfasync="false"
+                src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+              ></script>
               <script>
                 document.write(new Date().getFullYear());
               </script>
